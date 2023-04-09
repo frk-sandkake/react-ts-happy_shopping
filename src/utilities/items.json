@@ -1,0 +1,41 @@
+[
+    {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "title": "string",
+      "description": "string",
+      "price": 0,
+      "discountedPrice": 0,
+      "imageUrl": "/images/totoro-dance.webp",
+      "rating": 0,
+      "tags": [
+        "string"
+      ],
+      "reviews": "string"
+    },
+    {
+      "id": "3fa85f64-2c963f66afa6",
+      "title": "string",
+      "description": "string",
+      "price": 0,
+      "discountedPrice": 0,
+      "imageUrl": "/images/totoro-dance.webp",
+      "rating": 0,
+      "tags": [
+        "string"
+      ],
+      "reviews": "string"
+    },
+    {
+        "id": "3fa-5717-4562-b3fc-",
+        "title": "string2",
+        "description": "string2",
+        "price": 2,
+        "discountedPrice": 2,
+        "imageUrl": "/images/luis-villasmil-unsplash.jpg",
+        "rating": 2,
+        "tags": [
+        "string"
+        ],
+        "reviews": "string2"
+    }
+  ]
