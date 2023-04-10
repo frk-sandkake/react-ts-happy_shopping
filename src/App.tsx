@@ -6,6 +6,8 @@ import { Navbar } from './components/Navbar'
 import './App.css'
 import ProductDetails from './pages/ProductDetails'
 
+
+
 function App() {
   return (
   <>
