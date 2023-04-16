@@ -1,24 +1,23 @@
 import { Routes, Route } from 'react-router-dom'
-import { Container } from 'react-bootstrap'
 import { Home } from './pages/Home'
-import { Contact } from './pages/Contact'
-import { Navbar } from './components/Navbar'
+import  Contact  from './pages/Contact'
+import { Layout } from './components/Layout'
 import './App.css'
-import ProductDetails from './pages/ProductDetails'
+import { ProductPage } from './pages/Product'
 
 
 
 function App() {
   return (
   <>
-    <Navbar />
-    <Container className="mb-4">
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="productdetails/:id" element={<ProductDetails />} />
+        <Route path="/" element={<Layout />} >
+        <Route index element={<Home />} />
+        <Route path="products/:id" element={<ProductPage />} />
         <Route path="contact" element={<Contact />} />
+        </Route>
       </Routes>
-    </Container>
+
   </>
   )
 }

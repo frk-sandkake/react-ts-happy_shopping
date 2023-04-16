@@ -1,6 +1,14 @@
+body {
+    font-family: var(--bs-body-font-family);
+    background-color: #ededed;
+}
 
+.header-footer-colors {
+    background-color: #290500;
+    color:#d7bda5;
+}
 
-.header-x {
-    background-color: rgb(41, 5, 0);
-    color:rgb(255, 235, 233);
+.badge-x {
+    color: #290500;
+    background-color: #e2cab7;
 }

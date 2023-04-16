@@ -2,7 +2,7 @@
   "compilerOptions": {
     "strict": true,
     "composite": true,
-    "module": "CommonJS",
+    "module": "ESNext",
     "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
