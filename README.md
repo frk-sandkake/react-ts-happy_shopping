@@ -2,25 +2,17 @@
 
 # The Ecom store react-ts-happy_shopping
 
+![image](https://res.cloudinary.com/dmurhab0f/image/upload/v1702557392/Noroff-Projects/js_frameworks_ca-857x689_xyatna.png)
+
+
 <p align="center">
 	A course assignment in JavaScript frameworks for 2.year students in <br> Front-End Development, at Noroff VOC Oslo, Norway <br>
     • Student: Linda Sandaker, aka frk.Sandkake
 </p>
 
-<br/>
+[Description](#description) [Getting Started](#getting_started) [Credits](#credits)
 
-<p align="center">
-	<a href="#Project-details">Project Details</a> •
-  <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#credits">Credits</a> •
-</p>
-
-<br/>
-
-## Project details:
-
-**Intro:**
+## Description
 
 The aim of this course assignment was to build an e-commerce store
 using React framework, fetching the products from the API provided by Noroff,
@@ -63,67 +55,30 @@ or CSS Modules. See the other requirements listed under **Key Features**.
         - Body (Minimum number of characters is 3, required)
     - Shows submitted form date in console, if validated.
 
-<br/>
 
-## How To Use:
+## Getting Started
 
-* Fork and/or Clone this repo
+### Installing
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
+1. Clone the repo:
 
-<details>
-<summary style="color: darkseagreen">
-Toggle for more instructions:
-</summary>
+```bash
+git clone git@github.com:NoroffFEU/portfolio-1-example.git
+```
 
-On GitHub:
+2. Install the dependencies:
 
-- Fork this repo to get your own copy AND/OR
-- Copy the code URL or SSH link that you find under `<> Code` button
+```
+npm install
+```
 
-Locally, on your PC:
+### Running
 
-- In Terminal
-    - `cd .\path\ ` to directory/folder for your local workspace
-    - run:`git clone <Github repo URL or SHH>`
-    - then `cd .\path\` to new folder with repo name
-- Then open your IDE/code editor
-    - Open the directory (or folder) with your cloned repo
-</details>
+To run the app, run the following commands:
 
-<br/>
-
- * Command lines to run in terminal:
-
-| Commands          | Description                                                |
-|-------------------|------------------------------------------------------------|
-| `npm install`     | Installs all packages in Package.json in the node modules  |
-| `npm run dev`     | To see the whole project in local host                     |
-| `npm run build`   | Builds the project into minified version (dist folder)     |
-| `npm run preview` | To preview the project in minified mode (from dist folder) |
-
-
-
-<details style="color: powderblue; font-family: 'Lucida Console', sans-serif">
-<summary>
-Good to know `npm` Command lines:
-</summary>
-
-| Commands                          | Description                                       |
-|-----------------------------------|---------------------------------------------------|
-| `npm init -y`                     | Will initiate  a new Node JS project Package.json |
-| `npm outdated`                    | To see the outdated packages                      |
-| `npm update`                      | Updates the project dependencies                  |
-| `npm update <packagename>`        | Updates a specific project dependency             |
-| `npm uninstall <package_name>`    | Uninstalls a project dependency                   |
-| `npm update -g`                   | Use -g flag for global dependencies               |
-| `npm update -D` or `--save-dev`   | Use -d or --dev flag for devDependencies          |
-| `npm uninstall -g <package_name>` |                                                   |
-
-</details>
-
-<br/>
-
+```bash
+npm run dev
+```
 ## Credits
 
 - [vite JS dev guide](https://vitejs.dev/guide/)
