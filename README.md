@@ -10,7 +10,7 @@
     • Student: Linda Sandaker, aka frk.Sandkake
 </p>
 
-[Description](#description) [Getting Started](#getting_started) [Credits](#credits)
+[Description](#description) [Getting Started](#getting-started) [Credits](#credits)
 
 ## Description
 
